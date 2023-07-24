@@ -5,10 +5,11 @@ import numpy as np
 
 from video_acquisition.video_acquisition import load_video
 from video_analysis.object_detection import detect_objects
+from network.mqtt_service import MQTTService
 
 
 def main():
-
+    mqtt_service = MQTTService()
     # Path to your video file
     video_file = "/Users/vkolla/iCloud Drive (Archive)/Documents/VK/aditi/secret garden videos/IMG_3492.mp4"
 
