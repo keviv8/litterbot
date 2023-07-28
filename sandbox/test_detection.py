@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the first frame
-from video_analysis.object_detection import detect_objects
+from vision.object_detection import detect_objects
 
 frame_file = "temp/frame.jpg"
 frame = cv2.imread(frame_file)
